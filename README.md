@@ -18,7 +18,7 @@ composer require g4/redirect
 
 ### Run tests
 
-    $ make test
+    $ make unit-test
     
 ### Run psr2 check
 
