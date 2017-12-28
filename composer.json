@@ -26,7 +26,8 @@
     ],
     "require": {
         "g4/value-object"       : "2.*",
-        "g4/constants"          : "*"
+        "g4/constants"          : "*",
+        "g4/code-coverage"          : "1.*"
 
     },
     "require-dev": {
@@ -44,7 +45,7 @@
             "./vendor/bin/phpunit --colors=always -c tests/unit/phpunit.xml --coverage-clover=tests/unit/coverage/code-coverage.xml"
         ],
         "code-coverage": [
-            "./bin/code-coverage -p 90 -f tests/unit/coverage/code-coverage.xml"
+            "./vendor/bin/code-coverage -p 90 -f tests/unit/coverage/code-coverage.xml"
         ],
         "psr2": [
             "./vendor/bin/phpcs --colors --standard=PSR2 src/"
