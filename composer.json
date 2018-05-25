@@ -27,7 +27,8 @@
     "require": {
         "g4/value-object"       : "2.*",
         "g4/constants"          : "*",
-        "g4/code-coverage"          : "1.*"
+        "g4/code-coverage"          : "1.*",
+        "g4/predefined-variables": "^1.2"
 
     },
     "require-dev": {
