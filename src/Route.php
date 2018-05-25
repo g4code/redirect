@@ -15,7 +15,7 @@ class Route
      * Route constructor.
      * @param $path
      */
-    public function __construct($server, $path)
+    public function __construct($path)
     {
         $this->path = $path;
         $this->url = new Url($this->buildUrl());
