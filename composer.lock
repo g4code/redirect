@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2437f40bbe7bbbb8929f6e5bc941d757",
+    "content-hash": "8529ca907778245dd16b3d82c4da9360",
     "packages": [
         {
             "name": "g4/code-coverage",
@@ -145,16 +145,16 @@
         },
         {
             "name": "g4/value-object",
-            "version": "2.40.1",
+            "version": "2.42.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/g4code/value-object.git",
-                "reference": "2c2e9a016fce2e76d3f86fa2348acdd82cdc84dc"
+                "reference": "0277d459e9d4ad23a824847d82071e9be7b343fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/g4code/value-object/zipball/2c2e9a016fce2e76d3f86fa2348acdd82cdc84dc",
-                "reference": "2c2e9a016fce2e76d3f86fa2348acdd82cdc84dc",
+                "url": "https://api.github.com/repos/g4code/value-object/zipball/0277d459e9d4ad23a824847d82071e9be7b343fe",
+                "reference": "0277d459e9d4ad23a824847d82071e9be7b343fe",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 }
             ],
             "description": "PHP value objects",
-            "time": "2018-05-30T12:11:23+00:00"
+            "time": "2019-06-10T08:42:55+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1107,6 +1107,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
@@ -1844,5 +1845,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
